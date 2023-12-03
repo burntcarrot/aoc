@@ -14,6 +14,13 @@ def test_b():
     assert 0 == part_b('test_input.txt')
 
 
+def read_input(input_path):
+    with open(input_path, 'r') as file:
+        data = file.readlines()
+
+    return data
+
+
 if __name__ == '__main__':
     test_a()
     print('Day 00a:', part_a('input.txt'))
