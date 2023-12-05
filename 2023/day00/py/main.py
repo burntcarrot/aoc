@@ -22,7 +22,7 @@ def read_input(input_path):
 
 
 if __name__ == '__main__':
-    test_a()
+    print("Test 1:", test_a())
     print('Day 00a:', part_a('input.txt'))
-    test_b()
+    print("Test 2:", test_b())
     print('Day 00b:', part_b('input.txt'))
